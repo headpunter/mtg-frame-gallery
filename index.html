@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Frames they never had</title>
+<meta name="description" content="Four random Magic: The Gathering cards, each rendered on three card frames they were never printed in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300&display=swap">
+<style>
+:root{--ink:#12161d;--ink-2:#1a2029;--paper:#ebe6da;--paper-2:#a9a396;--brass:#d2b06f;--rule:#2b323d}
+*{box-sizing:border-box}
+html{background:var(--ink)}
+body{margin:0;background:var(--ink);color:var(--paper);font-family:Fraunces,Georgia,serif;font-weight:300;font-size:17px;line-height:1.55;padding:0 16px 80px}
+a{color:inherit}
+header{max-width:1240px;margin:0 auto;padding:72px 0 40px}
+h1{font-size:clamp(44px,7vw,92px);font-weight:300;line-height:.95;letter-spacing:-.02em;margin:0 0 22px;font-variation-settings:"opsz" 144}
+h1 i{font-style:italic;font-weight:300}
+.lede{max-width:58ch;font-size:clamp(18px,2vw,22px);margin:0 0 10px}
+.how{max-width:58ch;color:var(--paper-2);margin:0}
+main{max-width:1240px;margin:0 auto}
+.row{display:grid;grid-template-columns:minmax(200px,1fr) 3fr;gap:28px 40px;align-items:start;padding:40px 0;border-top:1px solid var(--rule)}
+figure{margin:0}
+figure img{display:block;width:100%;height:auto;border-radius:4.4%/3.2%;background:var(--ink-2)}
+figure a{display:block;outline-offset:6px;border-radius:4.4%/3.2%}
+figure a:focus-visible{outline:2px solid var(--brass)}
+figcaption{display:flex;flex-direction:column;gap:2px;margin-top:12px;font-size:15px;color:var(--paper-2)}
+figcaption b{font-weight:500;color:var(--paper)}
+.real{max-width:372px}
+.real figcaption b{font-size:22px;line-height:1.2;margin-bottom:4px}
+.renders{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.render figcaption b{color:var(--brass)}
+footer{max-width:1240px;margin:48px auto 0;padding-top:24px;border-top:1px solid var(--rule);color:var(--paper-2);font-size:15px}
+footer p{max-width:70ch;margin:8px 0}
+dialog{border:0;padding:0;background:transparent;max-width:min(96vw,760px);max-height:96vh}
+dialog::backdrop{background:rgba(8,10,14,.9)}
+dialog img{display:block;max-width:min(96vw,760px);max-height:88vh;width:auto;height:auto;border-radius:4.4%/3.2%;margin:0 auto}
+dialog p{color:var(--paper-2);text-align:center;font-size:15px;margin:12px 0 0}
+@media (max-width:860px){.row{grid-template-columns:1fr;gap:24px}.real{max-width:280px}.renders{grid-template-columns:repeat(3,1fr);gap:12px}figcaption{font-size:13px}}
+@media (max-width:560px){.renders{grid-template-columns:1fr 1fr}header{padding-top:48px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Frames they <i>never had</i></h1>
+  <p class="lede">Four Magic cards picked at random from Scryfall, each rendered on three card frames Wizards never printed them in.</p>
+  <p class="how">Every image is built from the card's real art crop, rules text and set symbol, pushed through a Proxyshop Photoshop template by a script. Nothing is hand-edited. Click any card to see it large.</p>
+</header>
+<main>
+  <section class="row">
+    <figure class="real">
+      <a href="img/black_widow_msh_real.jpg" data-cap="Black Widow, Double Agent as printed in Marvel Super Heroes"><img src="img/black_widow_msh_real.jpg" alt="Black Widow, Double Agent as actually printed" loading="lazy" width="372" height="520"></a>
+      <figcaption><b>Black Widow, Double Agent</b><span>as printed in Marvel Super Heroes, MSH 208</span><span>art by Michael MacRae</span></figcaption>
+    </figure>
+    <div class="renders">
+      <figure class="render">
+        <a href="img/black_widow_msh__crimson-fang.jpg" data-cap="Black Widow, Double Agent on the crimson fang frame"><img src="img/black_widow_msh__crimson-fang_t.jpg" alt="Black Widow, Double Agent rendered on the Crimson Fang frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Crimson Fang frame</b><span>Innistrad: Crimson Vow vampire showcase, 2021</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/black_widow_msh__classic-remastered.jpg" data-cap="Black Widow, Double Agent on the classic remastered frame"><img src="img/black_widow_msh__classic-remastered_t.jpg" alt="Black Widow, Double Agent rendered on the Classic Remastered frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Classic Remastered frame</b><span>Dominaria Remastered retro frame, 2023</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/black_widow_msh__miracle.jpg" data-cap="Black Widow, Double Agent on the miracle frame"><img src="img/black_widow_msh__miracle_t.jpg" alt="Black Widow, Double Agent rendered on the Miracle frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Miracle frame</b><span>Avacyn Restored miracles, 2012</span></figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="row">
+    <figure class="real">
+      <a href="img/josu_vess_dom_real.jpg" data-cap="Josu Vess, Lich Knight as printed in Dominaria"><img src="img/josu_vess_dom_real.jpg" alt="Josu Vess, Lich Knight as actually printed" loading="lazy" width="372" height="520"></a>
+      <figcaption><b>Josu Vess, Lich Knight</b><span>as printed in Dominaria, DOM 95</span><span>art by Tyler Jacobson</span></figcaption>
+    </figure>
+    <div class="renders">
+      <figure class="render">
+        <a href="img/josu_vess_dom__colorshifted.jpg" data-cap="Josu Vess, Lich Knight on the colorshifted frame"><img src="img/josu_vess_dom__colorshifted_t.jpg" alt="Josu Vess, Lich Knight rendered on the Colorshifted frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Colorshifted frame</b><span>Planar Chaos timeshifted cards, 2007</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/josu_vess_dom__sketch.jpg" data-cap="Josu Vess, Lich Knight on the sketch frame"><img src="img/josu_vess_dom__sketch_t.jpg" alt="Josu Vess, Lich Knight rendered on the Sketch frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Sketch frame</b><span>Modern Horizons 2 sketch cards, 2021</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/josu_vess_dom__double-feature.jpg" data-cap="Josu Vess, Lich Knight on the double feature frame"><img src="img/josu_vess_dom__double-feature_t.jpg" alt="Josu Vess, Lich Knight rendered on the Double Feature frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Double Feature frame</b><span>Innistrad Double Feature black-and-white, 2022</span></figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="row">
+    <figure class="real">
+      <a href="img/kellan_fdn_real.jpg" data-cap="Kellan, Planar Trailblazer as printed in Foundations"><img src="img/kellan_fdn_real.jpg" alt="Kellan, Planar Trailblazer as actually printed" loading="lazy" width="372" height="520"></a>
+      <figcaption><b>Kellan, Planar Trailblazer</b><span>as printed in Foundations, FDN 91</span><span>art by Zoltan Boros</span></figcaption>
+    </figure>
+    <div class="renders">
+      <figure class="render">
+        <a href="img/kellan_fdn__normal-classic.jpg" data-cap="Kellan, Planar Trailblazer on the old border"><img src="img/kellan_fdn__normal-classic_t.jpg" alt="Kellan, Planar Trailblazer rendered on the Old border" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Old border</b><span>Eighth Edition and earlier, 1993 to 2003</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/kellan_fdn__universes-beyond.jpg" data-cap="Kellan, Planar Trailblazer on the universes beyond frame"><img src="img/kellan_fdn__universes-beyond_t.jpg" alt="Kellan, Planar Trailblazer rendered on the Universes Beyond frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Universes Beyond frame</b><span>Warhammer 40,000 and later crossovers, 2022</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/kellan_fdn__znrexp.jpg" data-cap="Kellan, Planar Trailblazer on the zendikar expeditions"><img src="img/kellan_fdn__znrexp_t.jpg" alt="Kellan, Planar Trailblazer rendered on the Zendikar Expeditions" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Zendikar Expeditions</b><span>Zendikar Rising Expeditions hedron frame, 2020</span></figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="row">
+    <figure class="real">
+      <a href="img/urza_mh1_real.jpg" data-cap="Urza, Lord High Artificer as printed in Modern Horizons"><img src="img/urza_mh1_real.jpg" alt="Urza, Lord High Artificer as actually printed" loading="lazy" width="372" height="520"></a>
+      <figcaption><b>Urza, Lord High Artificer</b><span>as printed in Modern Horizons, MH1 75</span><span>art by Grzegorz Rutkowski</span></figcaption>
+    </figure>
+    <div class="renders">
+      <figure class="render">
+        <a href="img/urza_mh1__etched.jpg" data-cap="Urza, Lord High Artificer on the etched foil frame"><img src="img/urza_mh1__etched_t.jpg" alt="Urza, Lord High Artificer rendered on the Etched foil frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Etched foil frame</b><span>Commander Legends etched foils, 2020</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/urza_mh1__classic-modern.jpg" data-cap="Urza, Lord High Artificer on the classic modern frame"><img src="img/urza_mh1__classic-modern_t.jpg" alt="Urza, Lord High Artificer rendered on the Classic Modern frame" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Classic Modern frame</b><span>Mystery Booster retro frame, 2019</span></figcaption>
+      </figure>
+      <figure class="render">
+        <a href="img/urza_mh1__kaldheim.jpg" data-cap="Urza, Lord High Artificer on the kaldheim showcase"><img src="img/urza_mh1__kaldheim_t.jpg" alt="Urza, Lord High Artificer rendered on the Kaldheim showcase" loading="lazy" width="560" height="762"></a>
+        <figcaption><b>Kaldheim showcase</b><span>Kaldheim Viking knotwork, 2021</span></figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>Renders come from one generic script driving the PhotoCraft CLI over Proxyshop's PSD templates, running in a container on a home server. Card data and art from Scryfall; frames and templates by the Proxyshop community. Magic: The Gathering is a trademark of Wizards of the Coast. This is a fan project, nothing here is for sale.</p>
+</footer>
+<dialog id="dlg"><img id="dimg" alt=""><p id="dcap"></p></dialog>
+<script>
+const dlg=document.getElementById('dlg'),dimg=document.getElementById('dimg'),dcap=document.getElementById('dcap');
+document.querySelectorAll('figure a').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();dimg.src=a.href;dimg.alt=a.dataset.cap;dcap.textContent=a.dataset.cap;dlg.showModal();}));
+dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close();});
+</script>
+</body>
+</html>
